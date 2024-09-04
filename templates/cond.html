@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Perfoming conditional Statment Representation</h1>
+        {% if a > b %}
+        <h1>{{a}} is maximum {{b}}</h1>
+        {% else %}
+        <h1>{{b}} is maximum than {{a}}</h1>
+        {% endif %}
+        <a href="{% url 'prasad:loop' %}">Navigate from cond to loop</a>
+        
+    </center>
+</body>
+</html>
